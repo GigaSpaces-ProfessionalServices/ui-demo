@@ -31,7 +31,7 @@ After Deployed, Demo-app enables to perform some operations on the cluster and s
         set GS_GSC_OPTIONS=-Xmx256m
 5. Go to GS_DIR/bin folder and run ./gs.sh host run-agent --auto --gsc=9
     This will start the Service Grid and the New UI will be available at http://localhost:8090/
-6. Download the current version of the UI-Demo Project: https://github.com/Gigaspaces/ui-demo
+6. Download the current version of the UI-Demo Project: https://github.com/GigaSpaces-ProfessionalServices/ui-demo
 7. Unzip it and run the following from within the ui-demo folder:
     Linux/Mac:
         mvn clean package
