@@ -26,7 +26,7 @@
         <module>common</module>
         <module>products-catalog</module>
         <module>products-loader</module>
-        <module>products-feeder</module>
+        <!--<module>products-feeder</module>-->
         <module>web-application</module>
         <module>mirror</module>
         <module>demo-app</module>
