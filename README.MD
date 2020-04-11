@@ -1,10 +1,9 @@
 # UI Demo
 
 #### Overview:
-This repo includes number of services (pu's) that demonstrates the functionality of the WEB-UI.<br>
+This repo includes number of services (pu's) that demonstrates the functionality of GigaSpaces Ops Manager.<br>
 After Deployed, Demo-app enables to perform some operations on the cluster and see the effects on the UI. <br>
 
-*installation -version of the ui-demo to download.
 
 #### Project structure:
 ##### The project consist of the following services:
