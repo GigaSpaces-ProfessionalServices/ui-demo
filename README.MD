@@ -31,7 +31,8 @@ After Deployed, Demo-app enables to perform some operations on the cluster and s
 5. Go to GS_DIR/bin folder and run<br>
    `./gs.sh host run-agent --auto --gsc=9`<br>
     This will start the Service Grid and the New UI will be available at http://localhost:8090/
-6. Run the following from within the ui-demo folder:<br>
+6. Within the ui-demo folder verify that the pom.xml has the correct gsVersion:<br>
+7. Within the ui-demo folder perform the following:<br>
     `Linux/Mac:`<br>
         `mvn clean package`<br>
         `export GS_DIR=<PATH TO PRODUCT INSTALLATION>`<br>
