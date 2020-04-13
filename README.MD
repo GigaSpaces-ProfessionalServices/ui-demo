@@ -41,3 +41,5 @@ After Deployed, Demo-app enables to perform some operations on the cluster and s
         `mvn clean package`<br>
         `set GS_DIR=<PATH TO PRODUCT INSTALLATION>`<br>
         `deploy_all.bat`<br>
+* e.g deploy.sh screen shot:<br>
+![Screenshot](./Pictures/Picture1.png)
