@@ -45,7 +45,7 @@ public class DemoController implements Closeable {
         String restServer;
         XapManagerClusterInfo managerClusterInfo = SystemInfo.singleton().getManagerClusterInfo();
         if (!managerClusterInfo.isEmpty()) {
-            XapManagerConfig[] servers = managerClusterInfo.getServers();
+            XapManagerConfig[] servers = managerClusterInfo.getServers().toArray(new XapManagerConfig[0]);
             if (servers.length == 1) {
                 restServer = servers[0].getHost();
             } else {
